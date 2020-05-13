@@ -9,22 +9,22 @@
 <body>
 
   <!-- NAVIGATION -->
-  <nav>
+  <nav class="header-nav">
     <div class="container flex space-between">
       <!-- BRANDING -->
-      <div class="flex align-center">
+      <div class="flex align-center brand">
         <a href="#">
-          <img alt="Carved Rock Fitness" src="img/carved-rock-logo.png">
+          <img alt="Carved Rock Fitness" src="img/carved-rock-logo.png" class="logo">
         </a>
       </div>
       <!-- SEARCH -->
       <div class="flex flex-one align-center">
         <div>
           <form>
-            <input aria-label="Search" placeholder="What can we help you find?" type="search">
-            <button type="submit">SEARCH</button>
+            <input class="search-box" aria-label="Search" placeholder="What can we help you find?" type="search">
+            <button type="submit" class="search-button">SEARCH</button>
           </form>
-          <ul class="flex space-between">
+          <ul class="flex space-between nav-list">
             <li><a href="#">Clothing</a></li>
             <li><a href="#">Footwear</a></li>
             <li><a href="#">Equipment</a></li>
@@ -33,11 +33,11 @@
           </ul>
         </div>
         <!-- PROFILE -->
-        <div class="flex align-center">
-          <div class="flex flex-column">
+        <div class="flex align-center profile">
+          <div class="flex flex-column account">
             John Doe <a href="#">Log Out</a>
           </div>
-          <div><img alt="John Doe" src="img/profile-pic.jpg"></div>
+          <div class="profile-pic"><img alt="John Doe" src="img/profile-pic.jpg"></div>
         </div>
       </div>
     </div>
@@ -60,9 +60,9 @@
       <div class="flex align-center center ">
         <img alt="Brown Boots" src="img/brown-boots.jpg">
         <div>
-          <div>Couples retreat weekend</div>
-          <div>Save an extra 20%</div>
-          <div>when you buy 2 pairs of boots</div>
+          <div class="text-light">Couples retreat weekend</div>
+          <div class="text-secondary">Save an extra 20%</div>
+          <div class="text-primary">when you buy 2 pairs of boots</div>
         </div>
         <img alt="Grey Boots" src="img/grey-boots.jpg">
       </div>
@@ -125,7 +125,7 @@
   <footer>
     <section class="container space-between">
       <div>
-        <div>Customer Support</div>
+        <div class="text-primary">Customer Support</div>
         <ul>
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">Order Tracker</a></li>
@@ -136,7 +136,7 @@
         </ul>
       </div>
       <div>
-        <div>Company Info</div>
+        <div class="text-primary">Company Info</div>
         <ul>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Careers</a></li>
@@ -148,7 +148,7 @@
         </ul>
       </div>
       <div>
-        <div>Privacy &amp; Terms</div>
+        <div class="text-primary">Privacy &amp; Terms</div>
         <ul>
           <li><a href="#">Privacy &amp; Security</a></li>
           <li><a href="#">Statement</a></li>
@@ -156,7 +156,7 @@
         </ul>
       </div>
       <div>
-        <div>Follow Us</div>
+        <div class="text-primary">Follow Us</div>
         <ul>
           <li><a href="#"></a></li>
           <li><a href="#"></a></li>
@@ -166,7 +166,7 @@
         <div>
           <div>Email Updates</div>
           <div>Exclusive sales, special offers, and more.</div>
-          <input type="text" placeholder="Enter email address" />
+          <input type="text" placeholder="Enter email address" class="form-control" />
           <button class="btn btn-primary">Sign up</button>
         </div>
       </div>
@@ -180,7 +180,7 @@
       </div>
     </section>
 
-    <div>&copy;Pluralsight 2018</div>
+    <div class="text-primary">&copy;Pluralsight 2018</div>
   </footer>
 </body>
 </html>
